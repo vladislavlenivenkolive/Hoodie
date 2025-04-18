@@ -19,7 +19,7 @@ function App() {
       ) : (
         <ul>
           {entities.map((entity, idx) => (
-            <li key={idx}>{entity.name}</li>
+            <li key={idx}>{entity.summary}</li>
           ))}
         </ul>
       )}
