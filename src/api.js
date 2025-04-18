@@ -1,5 +1,5 @@
 export async function getEntities() {
-  const response = await fetch('http://localhost:5000/api/entities');
+  const response = await fetch('https://hoodie-api.azurewebsites.net/WeatherForecast');
   if (!response.ok) throw new Error('Failed to fetch');
   return response.json();
 }
