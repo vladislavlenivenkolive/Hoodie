@@ -1,4 +1,4 @@
-# Hoodie React App
+# Hoodie React App. Just for fun
 
 ## Run Frontend
 
