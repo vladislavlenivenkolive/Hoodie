@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div style={{ padding: 20, fontFamily: 'Arial' }}>
-      <h1>Hoodie Entities</h1>
+      <h1>Хай лоад нахуй, а це найпопулярніші словв за версією NYT:</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
